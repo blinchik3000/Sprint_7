@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b605b67c-bdc8-470b-825b-8b158fd7eb2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b605b67c-bdc8-470b-825b-8b158fd7eb2f" name="Changes" comment="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/common/Credentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/courier/Courier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orders/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orders/OrderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/orders/OrderGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierCreateMandatoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/orders/OrderCreateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/orders/OrderListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -13,6 +27,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,11 +50,115 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/poles/Sprint_7/src/main/java/Courier",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="courier" />
+      <recent name="Courier" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CourierCreateTest.checkCourierIsCreated">
+    <configuration name="CourierCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courier" />
+      <option name="MAIN_CLASS_NAME" value="courier.CourierCreateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierCreateTest.checkCourierIsCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courier" />
+      <option name="MAIN_CLASS_NAME" value="courier.CourierCreateTest" />
+      <option name="METHOD_NAME" value="checkCourierIsCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierCreateTest.checkDoubleCourierIsNotCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courier" />
+      <option name="MAIN_CLASS_NAME" value="courier.CourierCreateTest" />
+      <option name="METHOD_NAME" value="checkDoubleCourierIsNotCreated" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourierLoginTest.checkErrorWhenPassNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="courier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="courier" />
+      <option name="MAIN_CLASS_NAME" value="courier.CourierLoginTest" />
+      <option name="METHOD_NAME" value="checkErrorWhenPassNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderListTest.checkOrderListIsReturned" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="orders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="orders" />
+      <option name="MAIN_CLASS_NAME" value="orders.OrderListTest" />
+      <option name="METHOD_NAME" value="checkOrderListIsReturned" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CourierCreateTest.checkCourierIsCreated" />
+        <item itemvalue="JUnit.CourierCreateTest" />
+        <item itemvalue="JUnit.OrderListTest.checkOrderListIsReturned" />
+        <item itemvalue="JUnit.CourierLoginTest.checkErrorWhenPassNull" />
+        <item itemvalue="JUnit.CourierCreateTest.checkDoubleCourierIsNotCreated" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,6 +168,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667931750528</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit&#10;check develop branch">
+      <created>1667936656047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667936656047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +188,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit&#10;check develop branch" />
+    <MESSAGE value="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
