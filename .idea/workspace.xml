@@ -4,24 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b605b67c-bdc8-470b-825b-8b158fd7eb2f" name="Changes" comment="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/common/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/Courier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/courier/CourierGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/orders/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/orders/OrderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/orders/OrderGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/response/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierCreateMandatoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/courier/CourierLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/orders/OrderCreateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/orders/OrderListTest.java" afterDir="false" />
+    <list default="true" id="b605b67c-bdc8-470b-825b-8b158fd7eb2f" name="Changes" comment="forth commit&#10;allure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/courier/CourierClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/courier/CourierClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/orders/OrderGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orders/OrderGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/orders/OrderListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/orders/OrderListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/06a5fe51-2076-41eb-8692-6bf8d6305354-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/15c64576-a75d-4a0c-9535-18f44dc1e8b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2ee96d42-bc14-499f-9854-34f456bdf406-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3d8dc9a1-69e2-4388-9d76-8affde7fb666-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6676e544-5cc3-4934-ba73-46e47471549a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/68ead944-b204-42c1-a241-7d8591ac4d31-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9af5b6ee-5971-4684-9211-dde1fc755275-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9c5ba7a9-d3e3-4e40-8d98-3c66c1026548-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/aace06b7-2f29-4c09-a90e-cd0258b79a36-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ae072841-8db4-4a42-9797-33989445d394-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c23b79b0-f648-48f6-9052-e069ff2a2e10-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d748ea4a-8640-45fd-88a1-270787c07686-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/df4c4205-9d75-4183-a38a-2f6f6e4db769-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e0310fef-7909-4f3a-95dc-5079e53c0775-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e641c780-0a17-4ed3-865a-a2e4df44bef5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ed22bb65-38dc-4c40-bf44-97a0c09322b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f0102e07-e4b6-4d1e-b973-978919c1c721-result.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +76,7 @@
       <recent name="Courier" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CourierCreateTest.checkCourierIsCreated">
+  <component name="RunManager" selected="JUnit.CourierCreateTest.checkTheSameLoginCourierError">
     <configuration name="CourierCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <extension name="coverage">
@@ -117,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourierLoginTest.checkErrorWhenPassNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourierCreateTest.checkTheSameLoginCourierError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_7" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="courier" />
-      <option name="MAIN_CLASS_NAME" value="courier.CourierLoginTest" />
-      <option name="METHOD_NAME" value="checkErrorWhenPassNull" />
+      <option name="MAIN_CLASS_NAME" value="courier.CourierCreateTest" />
+      <option name="METHOD_NAME" value="checkTheSameLoginCourierError" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CourierCreateTest.checkCourierIsCreated" />
-        <item itemvalue="JUnit.CourierCreateTest" />
-        <item itemvalue="JUnit.OrderListTest.checkOrderListIsReturned" />
-        <item itemvalue="JUnit.CourierLoginTest.checkErrorWhenPassNull" />
+        <item itemvalue="JUnit.CourierCreateTest.checkTheSameLoginCourierError" />
         <item itemvalue="JUnit.CourierCreateTest.checkDoubleCourierIsNotCreated" />
+        <item itemvalue="JUnit.CourierCreateTest.checkCourierIsCreated" />
+        <item itemvalue="JUnit.OrderListTest.checkOrderListIsReturned" />
+        <item itemvalue="JUnit.CourierCreateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667936656047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classes and Objects">
+      <created>1668268570280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668268570280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="forth commit&#10;allure">
+      <created>1668268790998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668268790998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,17 +213,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit&#10;check develop branch" />
     <MESSAGE value="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classe and Objects" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/courier/CourierCreateTest.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="third commit&#10;add dependencies to pom&#10;new tests&#10;new Classes and Objects" />
+    <MESSAGE value="forth commit&#10;allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="forth commit&#10;allure" />
   </component>
 </project>

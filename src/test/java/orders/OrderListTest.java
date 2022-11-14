@@ -9,12 +9,10 @@ import org.junit.Test;
 import static org.hamcrest.Matchers.notNullValue;
 
 public class OrderListTest {
-    private Order order;
     private OrderClient orderClient;
 
     @Before
     public void setUp() {
-        order = OrderGenerator.generateRandom();
         orderClient = new OrderClient();
     }
 

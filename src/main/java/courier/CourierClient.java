@@ -1,17 +1,13 @@
 package courier;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
 import common.Client;
 import common.Credentials;
 import io.qameta.allure.Step;
 import io.restassured.filter.Filter;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
-import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import response.LoginResponse;
-
 
 import static io.restassured.RestAssured.given;
 

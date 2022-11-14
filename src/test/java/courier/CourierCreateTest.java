@@ -60,4 +60,18 @@ public class CourierCreateTest {
         responseCreate.assertThat().statusCode(201).and().body("ok",equalTo(true));
     }
 
+    @Test
+    @DisplayName("Check Courier is double with the same login only")
+    @Description("Negative tests of Courier's double with the same login only")
+    @Issue("баг - сообщение об ошибке не соответствует требованиям")
+    public void checkTheSameLoginCourierError(){
+        ValidatableResponse responseCreate = courierClient.create(courier);
+        String firstCourierPassword = courier.getPassword();
+        courier.setPassword(firstCourierPassword+"newpassword");
+        ValidatableResponse responseCreateSameLogin = courierClient.create(courier);
+        courier.setPassword(firstCourierPassword);
+        responseCreate.assertThat().statusCode(201).and().body("ok",equalTo(true));
+        responseCreateSameLogin.assertThat().statusCode(409).and().body("message",equalTo("Этот логин уже используется"));
+    }
+
 }
